@@ -32,42 +32,42 @@ const standardDetails = [
 
 const projects = [
   {
-    image: "/images/project-kebumen.webp",
+    image: "images/project-kebumen.webp",
     title: "Pusat Informasi Geologi Geopark Kebumen",
     place: "Kebumen, Jawa Tengah",
     year: "2024",
     type: "Ruang informasi publik",
   },
   {
-    image: "/images/project-bandung.webp",
+    image: "images/project-bandung.webp",
     title: "Information Center Pusat Survei Geologi",
     place: "Bandung, Jawa Barat",
     year: "2024",
     type: "Interior edukasi",
   },
   {
-    image: "/images/project-ijen.webp",
+    image: "images/project-ijen.webp",
     title: "Pusat Informasi Geologi Geopark Ijen",
     place: "Banyuwangi, Jawa Timur",
     year: "2023",
     type: "Fasilitas publik",
   },
   {
-    image: "/images/project-sunan-giri.webp",
+    image: "images/project-sunan-giri.webp",
     title: "Pembangunan Atap Makam Sunan Giri",
     place: "Gresik, Jawa Timur",
     year: "2025",
     type: "Struktur bangunan",
   },
   {
-    image: "/images/project-stadium.webp",
+    image: "images/project-stadium.webp",
     title: "Prasarana Stadion Gelora Joko Samudro",
     place: "Gresik, Jawa Timur",
     year: "2024",
     type: "Jalur pedestrian",
   },
   {
-    image: "/images/project-belahanrejo.webp",
+    image: "images/project-belahanrejo.webp",
     title: "Tanggul Penahan Tanah TPST Belahanrejo",
     place: "Gresik, Jawa Timur",
     year: "2024",
@@ -80,7 +80,7 @@ export default function Home() {
     <main>
       <header className="site-header">
         <a className="brand" href="#beranda" aria-label="PT Ratu Nayla Mandiri - Beranda">
-          <img src="/images/rnm-logo.webp" alt="Logo PT Ratu Nayla Mandiri" />
+          <img src="images/rnm-logo.webp" alt="Logo PT Ratu Nayla Mandiri" />
           <span>
             <strong>RATU NAYLA</strong>
             <small>MANDIRI</small>
@@ -132,20 +132,20 @@ export default function Home() {
         <div className="hero-visual" aria-label="Dokumentasi proyek PT Ratu Nayla Mandiri">
           <div className="image-card image-card-main">
             <img
-              src="/images/hero-structure.webp"
+              src="images/hero-structure.webp"
               alt="Pekerjaan struktur atap baja di kompleks Makam Sunan Giri"
             />
             <span className="image-tag">Konstruksi gedung · 2025</span>
           </div>
           <div className="image-card image-card-path">
             <img
-              src="/images/hero-path.webp"
+              src="images/hero-path.webp"
               alt="Jalur pedestrian Stadion Gelora Joko Samudro"
             />
           </div>
           <div className="image-card image-card-exhibit">
             <img
-              src="/images/hero-exhibit.webp"
+              src="images/hero-exhibit.webp"
               alt="Interior Pusat Informasi Geologi Geopark Kebumen"
             />
           </div>
@@ -304,7 +304,7 @@ export default function Home() {
 
       <footer>
         <div className="footer-brand">
-          <img src="/images/rnm-logo.webp" alt="" />
+          <img src="images/rnm-logo.webp" alt="" />
           <div><strong>PT Ratu Nayla Mandiri</strong><span>Kontraktor · Supplier · Perdagangan Umum</span></div>
         </div>
         <div className="footer-contact">
